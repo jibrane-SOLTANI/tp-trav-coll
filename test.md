@@ -12,7 +12,6 @@ public class Test {
 
 	public static void main(String[] args) {
 
-try{
 		Properties prop=new Properties();
 		prop.put(Context.URL_PKG_PREFIXES,"org.jboss.ejb.client.naming");
 
@@ -29,9 +28,6 @@ try{
 			System.out.println(InstInt.ConsulterListeHotel().get(i).getID_Hotel());
 		}
 		
-	}
-catch(NamingException e){
-	e.printStackTrace();
 }
 }
 
